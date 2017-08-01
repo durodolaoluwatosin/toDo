@@ -8,7 +8,9 @@
       body{
         margin-top: 30px;
       }
-      
+      #nwetodo{
+        margin-left: 30px;
+      }
       #completed p{
         text-decoration: line-through;
       }
@@ -18,23 +20,20 @@
     </style>
   </head>
   <body>
-    <div class="container">
-          <form class="form-group row">
-            <input id="newtodo" type="text">
-            <input id="time" type="time" >
-            <button id="addTask" name="button" class="btn btn-primary">Add</button>
-          </form>
-          <div class="toDoLists">
-            <hr>
-            <h3>To Do List</h3>
-            <table id="toDoList" class="table table-striped">
 
-            </table>
-          </div>
-          <hr>
-          <h3>completed</h3>
-          <div id="completed">
-          </div>
+    <input id="newtodo" type="text">
+    <input id="time" type="time" >
+    <button id="addTask" name="button" class="btn btn-primary">Add</button>
+    <div class="toDoLists">
+      <hr>
+      <h3>To Do List</h3>
+      <table id="toDoList" class="table table-striped">
+
+      </table>
+    </div>
+    <hr>
+    <h3>completed</h3>
+    <div id="completed">
     </div>
   </body>
   <script type="text/javascript" src="js/script.js"></script>
